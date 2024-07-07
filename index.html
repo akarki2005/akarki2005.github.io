@@ -13,17 +13,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet"> 
 </head>
 <!--Body-->
-<body style="font-family:'Roboto Slab', serif;text-align:center" onload="showPage('home-page')">
+<body onload="showPage('home-page')">
     <!--Front Page-->
     <div id="home-page">
         <title>Home</title>
         <h1>Aayush Karki</h1>
-        <button>About Me</button>
+        <button onclick="showPage('about-me-page')">About Me</button>
         <p></p>
-        <button>Projects</button>
+        <button onclick="showPage('projects-page')">Projects</button>
+    </div>
+    <!--About Me Page-->
+    <div id="about-me-page">
+        <title>About Me</title>
+        <h1>About Me</h1>
+        <p>Nothing here yet...</p>
+        <button onclick="showPage('home-page')">Go Home</button>
     </div>
     <!--Projects Page-->
     <div id="projects-page">
         <title>Projects</title>
+        <h1>Projects</h1>
+        <p>Nothing here yet...</p>
+        <button onclick="showPage('home-page')">Go Home</button>
     </div>
 </body>
