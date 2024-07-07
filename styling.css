@@ -3,9 +3,6 @@
 body {
     font-family: 'Roboto Slab', serif;
     background-color: slategray;
-}
-
-div {
     text-align: center;
 }
 
@@ -15,7 +12,8 @@ div {
     color: black;
     background-color: lightblue;
     transition: all 0.5s;
-    display: inline-block
+    display: inline-block;
+    margin:
 }
 
 button:hover {
