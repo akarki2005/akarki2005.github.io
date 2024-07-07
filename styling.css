@@ -1,7 +1,8 @@
 /* Main CSS File */
 body {
-    font-family:'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;
     background-color: slategray;
+    text-align: center
 }
 
 button {
