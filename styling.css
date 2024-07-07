@@ -1,23 +1,30 @@
 /* Main CSS File */
+/* work pls */
 
 body {
     font-family: 'Roboto Slab', serif;
-    background-color: slategray;
+    background-color: darkgray;
     text-align: center;
 }
 
-.head-button {
+#header-page {
+    margin: auto;
+    width: 100%;
+}
+
+#header-page button {
+    width: 25%;
     font-family:'Roboto Slab', serif;
-    font-size:x-large;
+    font-size: x-large;
     color: black;
-    background-color: lightblue;
+    background-color: darkgray;
     transition: all 0.5s;
     float: left;
     margin: 0px;
-    align-items: center;
+    border: none;
+    padding: 0px;
 }
 
-button:hover {
-    background-color: lightskyblue;
-    transform: scale(1.1)
+#header-page button:hover {
+    background-color: gray;
 }

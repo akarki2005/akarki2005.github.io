@@ -15,31 +15,47 @@
 <!--Body-->
 <body onload="showPage('home-page')">
     <!--Header (always shown)-->
-    <button class="head-button" onclick="showPage('home-page')">Home</button>
-    <button class="head-button" onclick="showPage('apis-page')">APIs</button>
-    <button class="head-button" onclick="showPage('games-page')">Games</button>
-    <button class="head-button" onclick="showPage('misc-page')">Miscellaneous</button>
+    <div id="header-page" class="static">
+        <button onclick="showPage('home-page')">Home</button>
+        <button onclick="showPage('apis-page')">APIs</button>
+        <button onclick="showPage('games-page')">Games</button>
+        <button onclick="showPage('misc-page')">Miscellaneous</button>
+        <br>
+    </div>
     <!--Home Page-->
-    <div id="home-page">
+    <div id="home-page" class="dynamic">
         <title>Home</title>
         <h1>Aayush Karki</h1>
         <p>Welcome to my website!</p>
-        <p></p>
+        <h3 style="text-align:left">To Do:</h3>
+        <ol style="text-align:left">
+            <li>Add personal description (soon)</li>
+        </ol>
     </div>
     <!--APIs Page-->
-    <div id="apis-page">
+    <div id="apis-page" class="dynamic">
         <title>APIs</title>
         <h1>APIs</h1>
         <p>Nothing here yet...</p>
+        <h3 style="text-align:left">To Do:</h3>
+        <ol style="text-align:left">
+            <li>Weather App using OpenWeather API pulls (July 2024)</li>
+            <li>Sports Score App using ESPN API pulls (August 2024)</li>
+        </ol>
     </div>
     <!--Games Page-->
-    <div id="games-page">
+    <div id="games-page" class="dynamic">
         <title>Games</title>
         <h1>Games</h1>
         <p>Nothing here yet...</p>
+        <h3 style="text-align:left">To do:</h3>
+        <ol style="text-align:left">
+            <li>Air hockey (July/August 2024)</li>
+            <li>Platformer? idk (later this year)</li>
+        </ol>
     </div>
     <!--Miscellaneous Page-->
-    <div id="misc-page">
+    <div id="misc-page" class="dynamic">
         <title>Miscellaneous</title>
         <h1>Miscellaneous</h1>
         <p>Nothing here yet...</p>
