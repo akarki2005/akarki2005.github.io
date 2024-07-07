@@ -1,2 +1,15 @@
 /* Main CSS File */
 
+button {
+    font-family:'Roboto Slab', serif;
+    font-size:large;
+    border: 6px solid black;
+    color: black;
+    background-color: lightgreen;
+    transition: all 0.5s
+}
+
+button:hover {
+    background-color: green;
+    transform: scale(1.1)
+}
