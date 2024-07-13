@@ -28,3 +28,18 @@ body {
 #header-page button:hover {
     background-color: gray;
 }
+
+.dynamic button {
+    display: block;
+    margin: auto;
+    background-color: darkgray;
+    color: black;
+    transition: all 0.5s;
+    font-size: large;
+    padding: 4px;
+    border: none;
+}
+
+.dynamic button:hover {
+    background-color: grey;
+}

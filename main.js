@@ -6,3 +6,7 @@ function showPage(page_id) {
     // show selected div (based on page_id)
     document.getElementById(page_id).style.display = 'block'
 }
+
+function redirect(url) {
+    window.location.href = url
+}
