@@ -30,6 +30,7 @@ body {
 }
 
 .dynamic button {
+    font-family:'Roboto Slab', serif;
     display: block;
     margin: auto;
     background-color: darkgray;
@@ -41,5 +42,5 @@ body {
 }
 
 .dynamic button:hover {
-    background-color: grey;
+    background-color: gray;
 }
