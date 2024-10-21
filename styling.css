@@ -1,46 +1,51 @@
-/* Main CSS File */
-/* work pls */
+/* Main CSS document */
 
-body {
-    font-family: 'Roboto Slab', serif;
-    background-color: darkgray;
-    text-align: center;
-}
-
-#header-page {
-    margin: auto;
-    width: 100%;
-}
-
-#header-page button {
-    width: 25%;
-    font-family:'Roboto Slab', serif;
-    font-size: x-large;
-    color: black;
-    background-color: darkgray;
-    transition: all 0.5s;
-    float: left;
-    margin: 0px;
-    border: none;
-    padding: 0px;
-}
-
-#header-page button:hover {
-    background-color: gray;
-}
-
-.dynamic button {
-    font-family:'Roboto Slab', serif;
-    display: block;
-    margin: auto;
-    background-color: darkgray;
-    color: black;
-    transition: all 0.5s;
+* {
+    text-decoration: none;
+    font-family: "VT323";
     font-size: large;
-    padding: 4px;
-    border: none;
 }
 
-.dynamic button:hover {
-    background-color: gray;
+@font-face {
+    font-family: "VT323";
+    src: url(assets/VT323-Regular.woff2) format('woff2'),
+        url(assets/VT323-Regular.woff) format('woff'),
+        url(assets/VT323-Regular.ttf) format('truetype');
+    font-display: block;
+}
+
+.navigation-bar {
+    background: maroon;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navigation-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name-logo a {
+    font-size: 50px;
+    color: white;
+}
+
+.subpage-logos a {
+    font-size: 35px;
+    color: gold;
+}
+
+.subpage-logos li {
+    list-style: none;
+    display: inline-block;
+    margin: 25px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
 }
