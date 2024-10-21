@@ -33,6 +33,10 @@
 
 .subpage-logos a {
     font-size: 35px;
+    color: white;
+}
+
+.navigation-div *:hover {
     color: gold;
 }
 
@@ -48,4 +52,8 @@ h1 {
 
 p {
     font-size: 25px;
+}
+
+.content {
+    text-align: center;
 }
