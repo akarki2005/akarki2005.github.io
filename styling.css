@@ -8,9 +8,9 @@
 
 @font-face {
     font-family: "VT323";
-    src: url(assets/VT323-Regular.woff2) format('woff2'),
-        url(assets/VT323-Regular.woff) format('woff'),
-        url(assets/VT323-Regular.ttf) format('truetype');
+    src: url(assets/fonts/VT323-Regular.woff2) format('woff2'),
+        url(assets/fonts/VT323-Regular.woff) format('woff'),
+        url(assets/fonts/VT323-Regular.ttf) format('truetype');
     font-display: block;
 }
 
@@ -56,4 +56,18 @@ p {
 
 .content {
     text-align: center;
+}
+
+.project-card {
+    margin: auto;
+    background-color: maroon;
+    width: 200px;
+    height: 325px;
+    padding: 15px;
+}
+
+.project-card * {
+    color: white;
+    margin-bottom: 0px;
+    text-align: bottom;
 }
