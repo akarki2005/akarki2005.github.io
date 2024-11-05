@@ -36,10 +36,6 @@
     color: white;
 }
 
-.navigation-div *:hover {
-    color: gold;
-}
-
 .subpage-logos li {
     list-style: none;
     display: inline-block;
@@ -59,15 +55,24 @@ p {
 }
 
 .project-card {
-    margin: auto;
+    margin-right: 8px;
     background-color: maroon;
     width: 200px;
-    height: 325px;
+    height: 375px;
     padding: 15px;
+    display: inline-block;
+    vertical-align: text-top;
 }
 
 .project-card * {
     color: white;
-    margin-bottom: 0px;
-    text-align: bottom;
+    text-align: center;
+}
+
+.project-card-container a {
+    margin: 10px;
+}
+
+a:hover {
+    color: gold;
 }
