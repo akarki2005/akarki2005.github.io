@@ -76,22 +76,3 @@ p {
 a:hover {
     color: gold;
 }
-
-.blog-card {
-    margin-right: 8px;
-    background-color: maroon;
-    width: 375px;
-    height: 375px;
-    padding: 15px;
-    display: inline-block;
-    vertical-align: text-top;
-}
-
-.blog-card * {
-    color: white;
-    text-align: center
-}
-
-.blog-card-container a {
-    margin: 10px;
-}
